@@ -20,5 +20,5 @@ Test using GET request to /dialogue_manager route, send json with body like belo
 } 
 ```
 
-![alt text](https://github.com/AMChierici/toia-dm/test/img/postman.png "Postman screenshot")
+![alt text](https://github.com/AMChierici/toia-dm/blob/main/test/img/postman.png "Postman screenshot")
 
