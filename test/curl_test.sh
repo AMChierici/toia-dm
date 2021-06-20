@@ -1,2 +1,1 @@
-curl -d @request.json -H "Content-Type: application/json" 
-  http://localhost:8082/spring-rest/foos/new
+curl -X GET -H "Content-Type: application/json" -d @request.json http://127.0.0.1:5000/dialogue_manager
