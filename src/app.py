@@ -4,7 +4,7 @@ import sqlalchemy as db
 import pandas as pd
 from utils import preprocess, toia_answer
 
-SQL_URL = "mysql://root@localhost/toia"
+SQL_URL = "mysql+mysqlconnector://root@localhost/toia"
 ENGINE = db.create_engine(SQL_URL)
 CONNECTION = ENGINE.connect()
 METADATA = db.MetaData()
