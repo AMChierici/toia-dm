@@ -1,4 +1,4 @@
-name: ds
+name: ds_toia
 channels:
   - conda-forge
   - r
@@ -169,7 +169,6 @@ dependencies:
     - cymem==2.0.5
     - dictset==0.3.1.2
     - dtreeviz==1.0
-    - en-core-web-sm==3.0.0
     - flask==2.0.1
     - greenlet==1.0.0
     - iniconfig==1.1.1
@@ -182,7 +181,6 @@ dependencies:
     - mljar-supervised==0.10.3
     - murmurhash==1.0.5
     - mysql-connector-python==8.0.25
-    - mysqlclient==2.0.3
     - nltk==3.6.2
     - numba==0.53.1
     - numpy==1.19.5
@@ -203,7 +201,6 @@ dependencies:
     - pystaggrelite3==0.1.3
     - pytest==6.2.3
     - python-editor==1.0.4
-    - python-graphviz==0.16
     - pyvttbl==0.5.2.2
     - pyyaml==5.4.1
     - regex==2021.4.4
@@ -213,7 +210,8 @@ dependencies:
     - shap==0.36.0
     - slicer==0.0.7
     - smart-open==3.0.0
-    - spacy==3.0.6
+    - spacy>=3.0.0,<4.0.0
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
     - spacy-legacy==3.0.5
     - sqlalchemy==1.4.12
     - srsly==2.4.1
@@ -227,4 +225,4 @@ dependencies:
     - werkzeug==2.0.1
     - wordcloud==1.8.1
     - xgboost==1.3.3
-prefix: /Users/amc/opt/miniconda3/envs/ds
+prefix: /Users/amc/opt/miniconda3/envs/ds_toia
